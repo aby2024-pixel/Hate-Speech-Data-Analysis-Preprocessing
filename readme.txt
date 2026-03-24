@@ -75,3 +75,38 @@ The project generates multiple visual insights:
 - Relationships between numerical features
 
 Generated files:
+chart1_label_distribution.png
+chart2_target_distribution.png
+chart3_text_length_distribution.png
+chart4_correlation_matrix.png
+
+
+---
+
+## ⚙️ Technologies Used
+
+- **Python**
+- **Pandas, NumPy**
+- **Matplotlib, Seaborn**
+- **Scikit-learn (Label Encoding)**
+
+---
+
+## 📂 Project Structure
+code.py # Main preprocessing & analysis script
+├── hateXplain.csv # Dataset
+├── cleaned_hateXplain_data.csv # Cleaned dataset output
+├── output.txt # Execution results
+├── charts/
+│ ├── chart1_label_distribution.png
+│ ├── chart2_target_distribution.png
+│ ├── chart3_text_length_distribution.png
+│ └── chart4_correlation_matrix.png
+├── README.md
+
+
+## ▶️ How to Run
+
+### 1. Install dependencies
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn
